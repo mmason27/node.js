@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(127, 204, 255);
+    text-align: center;
+} 
+
+#tripList {
+    display: flex; 
+    flex-direction: column;
+    /* align-content: center; */
+}

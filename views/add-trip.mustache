@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Trip</title>
+</head>
+<body>
+    <h1>Add Trip</h1>
+
+        <form method="POST" action="/add-trip">
+            <input type="text" placeholder="Enter a title" name="title"/>
+            <input type="text" placeholder="Enter an image" name="image"/>
+            <input type="date" placeholder="Enter departure date" name="departureDate"/>
+            <input type="date" placeholder="Enter return date" name="returnDate"/>
+            <button>Add Trip</button>
+        </form>
+</body>
+</html>
