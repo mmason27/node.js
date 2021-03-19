@@ -1,10 +1,28 @@
 body {
-    background-color: rgb(127, 204, 255);
+    background-color: rgb(161, 187, 204);
     text-align: center;
 } 
 
-#tripList {
+.header {
+    background: rgb(240, 243, 247);
+    padding: 20px;
+}
+
+.tripImage {
+    display: block;
+}
+
+.tripList {
     display: flex; 
     flex-direction: column;
     /* align-content: center; */
+}
+
+.inputImage {
+    width: 100px;
+    height: 100px;
+}
+
+.chatButton {
+    margin: 10px;
 }

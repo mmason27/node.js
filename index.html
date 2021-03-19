@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Plannng App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="header">Trip Planning</h1>
+    <a href="/login">Login</a>
+    <p>-or-</p>
+    <a href="/register">Register</a>
+    <br>
+    <a href="/trips">View My Trips</a>
+
+    <h3>Start a Chat</h3>
+        <div class="chatDisplay">
+        <input typ="text" placeholder="Enter chatname" id="chatnameTextBox"/>
+        <input type="text" placeholder="Enter message" id="chatMessageTextBox"/>
+        <div class="chatButton">
+        <button id="sendButton">Send</button></div>
+    </div>
+
+    <div id="chatMessagesDisplay"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io()
+    </script>
+    <script src="/js/client.js"></script>
+
+</body>
+</html>
